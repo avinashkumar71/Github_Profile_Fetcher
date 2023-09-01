@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile fetching</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <h1>Your github profile </h1>
+            <div class="search">
+                <input type="text" name="" id="input-text" placeholder="enter github Userid">
+                <button id="smbt">submit</button>
+                <p id="error-msg"></p>
+            </div>
+        </div>
+        <div class="profile-container" id="profile-id">
+            <div class="profile-card">
+                <div class="inner-profile-card">
+                    <div class="profile">
+                        <img src="" alt="photo" id="imga">
+                    </div>
+                    <div class="name">
+                        <div id="Name"></div>
+                        <div id="userid"></div>
+                    </div>
+                </div>
+                <button id="checkout">checkout</button>
+            </div>
+            <div class="about">
+                <h2>About</h2>
+                <p id="about-p"></p>
+            </div>
+            <div class="footer">
+                <div>
+                    followers
+                    <p id="followers">0</p>
+                </div>
+                <div>
+                    following
+                    <p id="following">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
